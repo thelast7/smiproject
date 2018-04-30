@@ -35,8 +35,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('revolution/css/settings.css') }}">
 
     <!-- Favicon and touch icons  -->
-    <link href="{{ asset('icon/apple-touch-icon-48-precomposed.png') }}" rel="icon" sizes="48x48">
-    <link href="{{ asset('icon/apple-touch-icon-32-precomposed.png') }}" rel="icon">
     <link href="{{ asset('icon/favicon.png" rel="icon') }}">
 
     <!--[if lt IE 9]>
@@ -53,23 +51,7 @@
     <!-- Boxed -->
     <div class="boxed">
 
-    <div class="top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 reponsive-onehalf">                      
-                    <p class="info-text">Welcome to San Marino Indonesia!</p>
-                </div><!-- /.col-md-6 -->       
-                <div class="col-lg-6 col-sm-6 reponsive-onehalf">
-                    <div class="wrap-top">
-                        <ul class="flat-top social-links">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>            
-                </div>        
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.top -->
+    
 
     <div class="flat-header-wrap">
         <!-- Header -->            
@@ -77,7 +59,7 @@
             <div class="container">
                 <div class="header-wrap clearfix">
                     <div class="row"> 
-                        <div class="col-lg-3">
+                        <div class="col-md-3 center">
                             <div id="logo" class="logo">
                                 <a href="{{ url('/') }}" rel="home">
                                     <img src="{{ asset('images/logo1.png') }}" alt="image">
@@ -85,7 +67,7 @@
                             </div><!-- /.logo -->
                             
                         </div>
-                        <div class="col-lg-9">
+                        <!-- <div class="col-lg-9">
                             <div class="wrap-widget-header clearfix">  
                                 <aside class="widget widget-info">          
                                     <div class="textwidget clearfix">
@@ -112,7 +94,7 @@
                                     </div>
                                 </aside>               
                             </div>
-                        </div>   
+                        </div>  -->  
                     </div><!-- /.row -->                   
                 </div><!-- /.header-wrap -->                 
                 
@@ -127,25 +109,28 @@
                             <div class="nav-wrap clearfix">        
                                 <nav id="mainnav" class="mainnav">
                                     <ul class="menu"> 
-                                        <li class="active">
+                                        <li>
                                             <a href="{{ url('/') }}">Home</a>
                 
                                         </li>
                                         <li><a href="{{ url('/about') }}">About Us</a></li>
-                                        <li><a href="{{ url('/contact') }}">Contact Us</a>
-                
-                                        </li>
+                                        xcc
                                         <li>
                                             <a href="#">Company</a>
                                             <ul class="submenu"> 
-                                                <li><a href="http://gjidigital.com">Global Jaring Indonesia</a>
+                                                <li><a href="#">EKA SAKTI INDONESIA</a>
                                                 </li>
-                                                <li><a href="#">Eka Sakti Indonesia</a>
+                                                <li><a href="http://gjidigital.com">GLOBAL JARING INDONESIA</a>
                                                 </li>
-                                                <li><a href="#">Eka Konsultan Indonesia</a>
+                                                <li><a href="#">MEGA JAYA INDONESIA</a>
                                                 </li>
-                                                <li><a href="#">Penta Berry Lestari</a>
+                                                <li><a href="#">PENTA BERRY LESTARI</a>
                                                 </li>
+                                                 <li><a href="#">EKA KONSULTAN INDONESIA</a>
+                                                </li>
+                                                 <li><a href="#">TALENTA INDONESIA</a>
+                                                </li>
+
                                                
                                                 </li>
                                             </ul><!-- /.submenu -->

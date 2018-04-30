@@ -1,9 +1,3 @@
-/**
-  * Name: CONSULOAN
-  * Version: 1.0
-  * Author: Themesflat
-  * Author URI: http://www.themesflat.com
-*/
 
 @import url("font-awesome.css");
 @import url("themify-icons.css");
@@ -2936,7 +2930,7 @@ h6 { font-size: 16px; line-height: 18px; }
 .widget.widget-out-link ul li a:before {
 	content: "\f101";
 	font-size: 16px;
-	color: #6C6D83;
+	color: #000000;
 }
 
 .widget.widget-out-link ul li a:hover:before {
